@@ -11,4 +11,5 @@ docker push i030054/myubuntu
 #
 #
 #delete image from pc
-
+docker rmi i030054/myubuntu:firsttry 
+docker rmi -f 1c3547e51c95 
