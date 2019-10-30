@@ -1,0 +1,14 @@
+#create image
+docker image build -t myubuntu:latest .
+#run image
+docker run -it --rm --name myubuntu myubuntu:latest  
+#
+#
+#Push image to dockerhub
+docker images
+docker tag 1c3547e51c95 i030054/myubuntu:firsttry
+docker push i030054/myubuntu
+#
+#
+#delete image from pc
+
